@@ -1,0 +1,61 @@
+{
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "workbench.editor.tabSizing": "shrink",
+  "files.eol": "\n",
+  "files.autoSave": "off",
+  // formatter
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+  "editor.tabSize": 2,
+  "prettier.printWidth": 100,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDelete": false,
+  "json.schemas": [],
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.inlineSuggest.enabled": true,
+
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "launch": {
+    "configurations": []
+  },
+  "workbench.colorTheme": "Omni"
+}
