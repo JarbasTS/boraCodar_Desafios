@@ -22,5 +22,11 @@
         <td>18/01/2023</td>
         <td><a href="desafio-02">🔗</a></td>
       </tr>
+      <tr>
+        <td>03</td>
+        <td>Button Styles</td>
+        <td>27/01/2023</td>
+        <td><a href="desafio-03">🔗</a></td>
+      </tr>
     </tbody>
   </table>
