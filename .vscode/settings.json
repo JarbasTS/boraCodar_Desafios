@@ -7,7 +7,7 @@
   "workbench.iconTheme": "material-icon-theme",
 
   "editor.bracketPairColorization.enabled": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "workbench.editor.tabSizing": "shrink",
   "files.eol": "\n",
@@ -32,8 +32,12 @@
   "prettier.endOfLine": "auto",
   "editor.tabSize": 2,
   "prettier.printWidth": 100,
+
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
@@ -57,5 +61,9 @@
   "launch": {
     "configurations": []
   },
-  "workbench.colorTheme": "Omni"
+  "workbench.colorTheme": "Omni",
+  "colorize.languages": ["javascript", "typescript", "css"],
+
+  "css.lint.unknownAtRules": "ignore",
+  "workbench.startupEditor": "none"
 }
