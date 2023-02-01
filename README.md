@@ -30,7 +30,7 @@
       </tr>
       <tr>
         <td>04</td>
-        <td>Button Styles</td>
+        <td>Chat</td>
         <td>01/02/2023</td>
         <td><a href="desafio-04">🔗</a></td>
       </tr>
