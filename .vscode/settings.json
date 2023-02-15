@@ -10,10 +10,11 @@
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "workbench.editor.tabSizing": "shrink",
-  "files.eol": "\n",
+  "files.eol": "\r\n",
   "files.autoSave": "off",
   // formatter
   "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
   "editor.acceptSuggestionOnCommitCharacter": false,
   "explorer.compactFolders": false,
   "git.enableSmartCommit": true,
@@ -24,6 +25,21 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "[html]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
   "prettier.tabWidth": 2,
   "prettier.semi": true,
   "prettier.singleQuote": true,
@@ -32,13 +48,19 @@
   "prettier.endOfLine": "auto",
   "editor.tabSize": 2,
   "prettier.printWidth": 100,
-
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "typescript",
+    "html",
+    "css",
+    "json"
+  ],
+
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "explorer.confirmDelete": false,
@@ -49,7 +71,6 @@
   "material-icon-theme.activeIconPack": "nest",
   "editor.suggestSelection": "first",
 
-  "gitlens.codeLens.recentChange.enabled": false,
   "terminal.integrated.showExitAlert": false,
   "[prisma]": {
     "editor.formatOnSave": true
@@ -62,8 +83,6 @@
     "configurations": []
   },
   "workbench.colorTheme": "Omni",
-  "colorize.languages": ["javascript", "typescript", "css"],
-
-  "css.lint.unknownAtRules": "ignore",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "tabnine.experimentalAutoImports": true
 }

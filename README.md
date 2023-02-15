@@ -40,5 +40,11 @@
         <td>08/02/2023</td>
         <td><a href="desafio-05">🧮</a></td>
       </tr>
+      <tr>
+        <td>06</td>
+        <td>Cartão de embarque</td>
+        <td>15/02/2023</td>
+        <td><a href="desafio-05">🧾</a></td>
+      </tr>
     </tbody>
   </table>
