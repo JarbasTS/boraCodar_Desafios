@@ -44,7 +44,13 @@
         <td>06</td>
         <td>Cartão de embarque</td>
         <td>15/02/2023</td>
-        <td><a href="desafio-05">🧾</a></td>
+        <td><a href="desafio-06">🧾</a></td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td>Blocos de carnaval</td>
+        <td>22/02/2023</td>
+        <td><a href="desafio-07">🛫</a></td>
       </tr>
     </tbody>
   </table>
