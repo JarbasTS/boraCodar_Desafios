@@ -52,5 +52,11 @@
         <td>22/02/2023</td>
         <td><a href="desafio-07">🛫</a></td>
       </tr>
+      <tr>
+        <td>08</td>
+        <td>Dashboard</td>
+        <td>02/03/2023</td>
+        <td><a href="desafio-08">💰</a></td>
+      </tr>
     </tbody>
   </table>
