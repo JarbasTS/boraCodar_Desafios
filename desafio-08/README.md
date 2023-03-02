@@ -28,6 +28,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 - https://bennettfeely.com/clippy/
 
+<br>
+
+# Acesse o projeto:
+
+https://bora-codar-desafio-08.vercel.app/
+
+<br><br>
+
 ## 📚 O que aprendemos nesse desafio
 
 ```md
