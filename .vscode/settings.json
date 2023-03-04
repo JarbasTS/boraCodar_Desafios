@@ -40,6 +40,7 @@
       "source.fixAll.eslint": true
     }
   },
+
   "prettier.tabWidth": 2,
   "prettier.semi": true,
   "prettier.singleQuote": true,
@@ -82,7 +83,9 @@
   "launch": {
     "configurations": []
   },
-  "workbench.colorTheme": "Omni",
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
   "workbench.startupEditor": "none",
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+  "editor.maxTokenizationLineLength": 2000000,
+  "git.autofetch": true
 }
