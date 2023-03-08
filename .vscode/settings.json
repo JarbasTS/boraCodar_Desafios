@@ -83,7 +83,7 @@
   "launch": {
     "configurations": []
   },
-  "workbench.colorTheme": "Shades of Purple (Super Dark)",
+  "workbench.colorTheme": "Omni",
   "workbench.startupEditor": "none",
   "tabnine.experimentalAutoImports": true,
   "editor.maxTokenizationLineLength": 2000000,
