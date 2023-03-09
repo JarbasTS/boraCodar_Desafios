@@ -39,12 +39,16 @@ body * {
   border-radius: 4.8rem;
 }
 
-#display {
+.display {
   margin-top: 5.4rem;
   padding-inline: 5.4rem;
+  min-width: 28.8rem;
+  min-height: 8.6rem;
 }
 
-#last-calc {
+#lastcalc {
+  min-width: 24.8rem;
+  min-height: 2.8rem;
   text-align: right;
   font-size: 2rem;
   line-height: 140%;
@@ -52,12 +56,14 @@ body * {
 }
 
 #result {
+  min-width: 24.8rem;
+  min-height: 5rem;
   margin-top: 0.8rem;
   display: flex;
   justify-content: space-between;
 }
 
-#result span {
+#result div {
   font-size: 3.6rem;
   line-height: 140%;
   color: #ebebeb;
@@ -71,7 +77,7 @@ body * {
   gap: 1.2rem;
 }
 
-button {
+.button {
   border: 0;
 
   width: 6.4rem;

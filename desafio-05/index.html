@@ -15,46 +15,46 @@
   </head>
   <body>
     <div id="calculator">
-      <div id="display">
-        <div id="last-calc">1 + 1</div>
+      <div class="display">
+        <div id="lastcalc">0</div>
         <div id="result">
           <img src="./assets/result.svg" alt="sinal de igual" />
 
-          <span>2</span>
+          <div class="calc-display" id="display"></div>
         </div>
       </div>
       <div id="keyboard">
-        <button class="secondary">CE</button>
-        <button>C</button>
-        <button>%</button>
-        <button class="operators">
-          <img src="./assets/divide.svg" alt="Divide" />
-        </button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="operators">
-          <img src="./assets/mult.svg" alt="Mult" />
-        </button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="operators">
-          <img src="./assets/minus.svg" alt="Minus" />
-        </button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="operators">
-          <img src="./assets/plus.svg" alt="" />
-        </button>
-        <button><img src="./assets/pluasminus.svg" alt="" /></button>
-        <button>0</button>
-        <button>,</button>
-        <button class="equal">
-          <img src="./assets/equal.svg" alt="" />
-        </button>
+        <button class="button secondary">CE</button>
+        <button class="button">C</button>
+        <button class="button">DEL</button>
+        <button class="button operators" id="divide">/</button>
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button operators" id="multiply">*</button>
+
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button operators" id="subtract">-</button>
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button operators" id="add">+</button>
+
+        <div class="button" id="">
+          <a
+            href="https://github.com/JarbasTS/boraCodar_Desafios/tree/main/desafio-05"
+            ><img
+              src="./assets/github.svg"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+        </div>
+        <button class="button">0</button>
+        <button class="button">.</button>
+        <button class="button equal" id="equals">=</button>
       </div>
     </div>
+    <script src="./calculator.js"></script>
   </body>
 </html>
