@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <main>
+      <section class="conversor">
+        <h2>Conversor de moedas</h2>
+        <div class="wrapper">
+          <div class="money-wrapper">
+            <input type="number" id="currencyValue1" value="" />
+
+            <select id="currency1" required="required">
+              <option value="">MOEDA</option>
+              <option value="BRL">REAL</option>
+              <option value="EUR">EURO</option>
+              <option value="GBP">LIBRA</option>
+              <option value="USD">DOLAR</option>
+              <option value="JPY">IENE</option>
+            </select>
+          </div>
+          <div class="middle">
+            <img src="./assets/arrows-exchange.svg" alt="trocar moedas" />
+          </div>
+          <div class="money-wrapper">
+            <input type="number" id="currencyValue2" value="" />
+
+            <select id="currency2" required="required">
+              <option value="">MOEDA</option>
+              <option value="BRL">REAL</option>
+              <option value="EUR">EURO</option>
+              <option value="GBP">LIBRA</option>
+              <option value="USD">DOLAR</option>
+              <option value="JPY">IENE</option>
+            </select>
+          </div>
+        </div>
+      </section>
+      <input type="hidden" id="convertionValue" value="1" />
+      <section class="cambio">
+        <h2>Taxa de câmbio</h2>
+        <div class="wrapper">
+          <canvas id="myChart"></canvas>
+        
+        </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

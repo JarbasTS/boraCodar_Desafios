@@ -58,5 +58,11 @@
         <td>02/03/2023</td>
         <td><a href="desafio-08">💰</a></td>
       </tr>
+      <tr>
+        <td>09</td>
+        <td>Conversor de moedas</td>
+        <td>08/03/2023</td>
+        <td><a href="desafio-09">💸</a></td>
+      </tr>
     </tbody>
   </table>
