@@ -86,12 +86,6 @@ input[type="number"]::-webkit-inner-spin-button {
   outline: 0.3rem solid #7c3aed;
 }
 
-.cambio .wrapper {
-  margin-top: 2.4rem;
-  width: 59.2rem;
-  height: 35.6rem;
-}
-
 /* SELETOR DA MOEDA */
 select {
   background: #ede9fe;
@@ -143,6 +137,8 @@ option {
 
 .cambio .wrapper {
   margin-top: 2.4rem;
+  width: 59.2rem;
+  height: 35.6rem;
 }
 
 .tooltip {
@@ -154,8 +150,17 @@ option {
 
 @media (max-width: 48rem) {
   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1.6rem;
     gap: 3.2rem;
+
+    position: absolute;
+    width: 32rem;
+    height: 51.2rem;
+    left: calc(50% - 32rem / 2);
+    top: calc(50% - 51.2rem / 2);
   }
 
   section h2 {
@@ -164,7 +169,18 @@ option {
 
   .conversor .wrapper {
     flex-direction: column;
+    align-items: center;
     gap: 0.8rem;
+  }
+
+  .cambio .wrapper {
+    display: flex;
+
+    align-items: center;
+    gap: 2.4rem;
+
+    width: 288px;
+    height: 256px;
   }
 
   .money-wrapper {
