@@ -136,23 +136,16 @@ option {
 /* CAMBIO */
 
 .cambio .wrapper {
-  margin-top: 2.4rem;
+  margin-top: 3.8rem;
   width: 59.2rem;
   height: 35.6rem;
 }
 
-.tooltip {
-  background-color: white;
-  box-shadow: 0 0.4rem 1.6rem rgb(15 23 42 / 0.15);
-  border-radius: 0.4rem;
-  padding: 0.8rem;
-}
-
 @media (max-width: 48rem) {
   main {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     padding: 1.6rem;
     gap: 3.2rem;
 
@@ -175,12 +168,12 @@ option {
 
   .cambio .wrapper {
     display: flex;
-
+    margin-top: 1.6rem;
     align-items: center;
     gap: 2.4rem;
 
-    width: 288px;
-    height: 256px;
+    width: 28.8rem;
+    height: 100%;
   }
 
   .money-wrapper {
