@@ -64,5 +64,11 @@
         <td>08/03/2023</td>
         <td><a href="desafio-09">💸</a></td>
       </tr>
+      <tr>
+        <td>10</td>
+        <td>Weather Page</td>
+        <td>16/03/2023</td>
+        <td><a href="desafio-10">⛅</a></td>
+      </tr>
     </tbody>
   </table>
